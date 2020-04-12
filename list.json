@@ -1,0 +1,132 @@
+{
+  "applicant": [
+    {
+      "id": 1,
+      "fullName": "Surya",
+      "dateOfBirth": "03-01-1999",
+      "highestQualification": "HSC",
+      "marksObtained": "90",
+      "goals": "get a good job",
+      "emailId": "surya@gmail.com",
+      "scheduledProgramId": 1,
+      "status": "waiting",
+      "dateOfInterview": "28-04-2020"
+    },
+    {
+      "id": 2,
+      "fullName": "Sudhanshu",
+      "dateOfBirth": "03-01-1999",
+      "highestQualification": "SSC",
+      "marksObtained": "80",
+      "goals": "get a good job",
+      "emailId": "sudhanshu@gmail.com",
+      "scheduledProgramId": "2",
+      "status": "waiting",
+      "dateOfInterview": "28-04-2020"
+    },
+    {
+      "id": 3,
+      "fullName": "Sahil",
+      "dateOfBirth": "03-01-1999",
+      "highestQualification": "Btech",
+      "marksObtained": "60",
+      "goals": "get a good job",
+      "emailId": "sahil@gmail.com",
+      "scheduledProgramId": 2,
+      "status": "waiting",
+      "dateOfInterview": "28-04-2020"
+    },
+    {
+      "id": 4,
+      "fullName": "Prerak",
+      "dateOfBirth": "03-01-1998",
+      "highestQualification": "Mtech",
+      "marksObtained": "100",
+      "goals": "become expert",
+      "emailId": "prerak@gmail.com",
+      "scheduledProgramId": 3,
+      "status": "waiting",
+      "dateOfInterview": "28-04-2020"
+    }
+  ],
+  "programsOffered": [
+    {
+      "id": 1,
+      "programName": "Btech",
+      "description": "Become professional",
+      "applicantEligibility": "12th",
+      "duration": 4,
+      "degreeCertificateOffered": "Full time Btech"
+    },
+    {
+      "id": 2,
+      "programName": "Mtech",
+      "description": "Become professional",
+      "applicantEligibility": "Btech",
+      "duration": 2,
+      "degreeCertificateOffered": "Full time Mtech"
+    },
+    {
+      "id": 3,
+      "programName": "BSC",
+      "description": "Good Course",
+      "applicantEligibility": "HSC",
+      "duration": "3",
+      "degreeCertificateOffered": "Full time BSC"
+    }
+    
+  ],
+  "programsScheduled": [
+    {
+      "id": 1,
+      "programName": "Btech",
+      "location": "Pune",
+      "startDate": "03-08-2020",
+      "endDate": "03-08-2024",
+      "sessionsPerWeek": 5
+    },
+    {
+      "id": 2,
+      "programName": "Mtech",
+      "location": "Mumbai",
+      "startDate": "03-08-2020",
+      "endDate": "03-08-2022",
+      "sessionsPerWeek": 5
+    },
+    {
+      "id": 3,
+      "programName": "BSC",
+      "location": "Pune",
+      "startDate": "12/22/2020",
+      "endDate": "12/22/2023",
+      "sessionsPerWeek": "4"
+    }
+  ],
+  "users": [
+    {
+      "userName": "surya",
+      "password": "surya",
+      "role": "admin"
+    },
+    {
+      "userName": "ganta",
+      "password": "ganta",
+      "role": "mac"
+    },
+    {
+      "userName": "sudhanshu",
+      "password": "sudhanshu",
+      "role": "admin"
+    },
+    {
+      "userName": "sudhanshu",
+      "password": "sudhanshu",
+      "role": "mac"
+    },
+    {
+      "userName": "agarwal",
+      "password": "agarawal",
+      "role": "mac"
+    }
+  ]
+}
